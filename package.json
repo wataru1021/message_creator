@@ -1,0 +1,37 @@
+{
+  "name": "message-creator",
+  "productName": "爆速メッセージ",
+  "description": "爆速で業務改善！！！組織改革？そんなの知らねぇ！！俺は俺の道でてっぺん目指す！！",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "build": {
+    "appId": "com.gameagalyer.message_creator",
+    "productName": "爆速メッセージ",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "icon": "build/icon.ico",
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "electron": "^37.2.4",
+    "electron-builder": "^26.0.12",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.3.5"
+  }
+}
