@@ -23,7 +23,7 @@ npx tailwindcss init
 @tailwind utilities;
 ```
 
-3. Please create file as `postcss.config.js` を作成
+3. Please create file as `postcss.config.js`.
 ```js
 module.exports = {
   plugins: {
